@@ -17,7 +17,6 @@ function calculateBMI(){
     var bmi = weightValue / Math.pow(heightValue, 2) * 703;
     }
 
-     //Weight (lb) / [height (in)]2 x 7037/
 
     var bmiRounded = Number(bmi.toFixed(1));
 
